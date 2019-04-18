@@ -1,5 +1,4 @@
 theme: jekyll-theme-minimal
-title: 
 name: Matthew Massom
 description: Undergraduate Engineering Student
 footer-links:
@@ -7,3 +6,5 @@ footer-links:
   github: mmassom96
   linkedin: linkedin.com/in/matthew-massom-940802137/
   twitter: matthewmassom
+exclude:
+  title

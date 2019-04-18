@@ -7,4 +7,4 @@ footer-links:
   linkedin: linkedin.com/in/matthew-massom-940802137/
   twitter: matthewmassom
 exclude:
-  title
+  - title

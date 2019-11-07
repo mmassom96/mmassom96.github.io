@@ -1,6 +1,6 @@
 html {
     height: 100%;
-    background-image: url(background.jpg);
+    background-image: url(images/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -24,7 +24,6 @@ body {
     text-shadow: 0px 1px 2px black, 1px 0px 2px black, 0px -1px 2px black, -1px 0px 2px black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
-    line-height: 1.5;
 }
 
 .bio {
@@ -76,3 +75,24 @@ a.bottomlinks:hover {
     border-radius: 8px;
 }
 
+.imglink {
+    text-decoration: none;
+}
+
+.imglink img{
+    height: 256;
+    width: 256;
+    margin-top: 5px;
+    margin-bottom: 48px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+a.imglink:hover img{
+    height: 266px;
+    width: 266px;
+    margin-top: 0px;
+    margin-bottom: 43px;
+    margin-left: 19px;
+    margin-right: 19px;
+}

@@ -3,6 +3,7 @@ html {
     background-image: url(images/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 body {
@@ -95,4 +96,12 @@ a.imglink:hover img{
     margin-bottom: 43px;
     margin-left: 19px;
     margin-right: 19px;
+}
+
+.myimage img{
+    /* margin-top: 5px; */
+    margin-bottom: 32px;
+    margin-left: 16px;
+    margin-right: 16px;
+    box-shadow: 0px 1px 2px darkslategray, 1px 0px 2px darkslategray, 0px -1px 2px darkslategray, -1px 0px 2px darkslategray;
 }

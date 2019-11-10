@@ -105,3 +105,44 @@ a.imglink:hover img{
     margin-right: 16px;
     box-shadow: 0px 1px 2px darkslategray, 1px 0px 2px darkslategray, 0px -1px 2px darkslategray, -1px 0px 2px darkslategray;
 }
+
+.iconlinks {
+    height: 28px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    line-height: 4;
+}
+
+a.iconlinks:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a.iconlinks:hover {
+    color: black;
+    text-decoration: none;
+}
+
+#header{
+    position: relative;
+}
+
+#header-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#footer{
+    position: relative;
+}
+
+#footer-content{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

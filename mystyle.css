@@ -117,6 +117,8 @@ a.imglink:hover img{
     line-height: 4;
     margin-left: 8px; 
     margin-right: 8px;
+    -webkit-filter: drop-shadow(0px 1px 2px black);
+    filter: drop-shadow(0px 1px 2px black);
 }
 
 a.iconlinks:visited {
@@ -127,6 +129,8 @@ a.iconlinks:visited {
 a.iconlinks:hover {
     color: black;
     text-decoration: none;
+    -webkit-filter: drop-shadow(0px 1px 2px gray);
+    filter: drop-shadow(0px 1px 2px dimgray);
 }
 
 #header{

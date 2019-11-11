@@ -86,18 +86,18 @@ a.bottomlinks:hover {
     height: 256;
     width: 256;
     margin-top: 5px;
-    margin-bottom: 48px;
-    margin-left: 24px;
-    margin-right: 24px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 a.imglink:hover img{
     height: 266px;
     width: 266px;
     margin-top: 0px;
-    margin-bottom: 43px;
-    margin-left: 19px;
-    margin-right: 19px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .myimage img{
@@ -153,4 +153,13 @@ a.iconlinks:hover {
     bottom: 0;
     left: 0;
     right: 0;
+}
+
+figure{
+    display: inline-block;
+}
+
+figcaption{
+    font-size: 20px;
+    text-align: center;
 }
